@@ -1,4 +1,4 @@
-import "./LeftBar.scss";
+import "./leftBar.scss";
 
 const LeftBar = () => {
   return <div>LeftBar</div>;
