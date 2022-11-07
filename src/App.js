@@ -3,6 +3,12 @@ import Register from "./pages/register/Register";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 function App() {
+  const Layout = () => {
+    return (
+      <div>
+      </div>
+    )
+  }
   const router = createBrowserRouter([
     {
       path: "/login",
